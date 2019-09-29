@@ -7,11 +7,8 @@ import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
-import lombok.Data;
-
 @Entity
 @Table(name="employee")
-@Data
 public class EmployeeInfo {
 
 	@Id
